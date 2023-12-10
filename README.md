@@ -4,4 +4,6 @@ Esta página la uso para anotar mi lista de tareas pendientes. Es muy sencilla d
 
 Una vez terminada la tarea, puedo hacer click en la parte izquierda y se tacha el texto. Además, si no quiero ver la nota, siempre puedo darle al botón de borrar.
 
+Cuando tengo una gran lista de tareas, utilizo el filtro para así poder encontrar las tareas más facilmente.
+
 Espero que te resulte tan útil como a mi y que sea de tu agrado.
