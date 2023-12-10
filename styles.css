@@ -1,0 +1,149 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --gris: #141414fe;
+    --blanco: #ffff;
+    --verde: #00bc8c;
+}
+
+body {
+    background-color: var(--gris);
+    color: var(--blanco);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#app {
+    width: 50%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.app--titulo{
+    padding: 20px 0;
+}
+
+.app__crearNota{
+    width: 100%;
+    display: flex;
+    gap: 1%;
+}
+
+.app__crearNota--introducir {
+    width: 50%;
+    padding: 10px;
+}
+
+.app__crearNota--button{
+    width: 20%;
+    height: 40px;
+    padding: 5px;
+    background-color: var(--verde);
+    color: var(--blanco);
+    border: var(--verde);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.app__crearNota--filtrar {
+    width: 50%;
+    padding: 10px;
+}
+
+.app__crearNota--checkbox{
+    width: 10%;
+}
+
+.app__crearNota--input {
+    width: 75%;
+    height: 40px;
+    padding: 5px;
+    border: 2px solid var(--blanco); 
+    border-radius: 5px;
+    margin: 10px;
+    transition: border-color 0.3s;
+}
+
+.app__crearNota--input:focus {
+    outline-color: var(--verde); 
+    border-color: var(--verde); 
+}
+
+.app--mensajesNotas{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.app--mensajesNotas button{
+    background-color: var(--gris);
+    border: none;
+    box-shadow: none;
+    color: orange;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+ul {
+    background-color: #444444fe;
+    border-radius: 5px;
+    border-color: 1px solid var(--blanco);
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+ul li{
+    padding: 10px;
+}
+
+ul li button{
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 2px solid var(--blanco);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    outline: none;
+    margin-right: 5px; 
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    border: 2px solid var(--verde);
+}
+
+footer {
+    margin-top: auto; 
+    text-align: center;
+    color: gray;
+    font-size: 0.8em;
+}
+
+footer p span a{
+    color: var(--verde);
+    text-decoration: none;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: var(--verde);
+}
