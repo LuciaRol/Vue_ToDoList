@@ -41,6 +41,8 @@ body {
 .app__crearNota--introducir {
     width: 50%;
     padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .app__crearNota--button{
